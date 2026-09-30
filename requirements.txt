@@ -1,0 +1,14 @@
+beautifulsoup4
+matplotlib
+nltk
+numpy
+pandas
+plotly
+requests
+scikit-learn
+seaborn
+selenium
+textblob
+tqdm
+xgboost
+jupyterlab
