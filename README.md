@@ -30,10 +30,6 @@ The cleaned notebook has no stored outputs. Running it recreates generated datas
 
 The `images/` directory contains figures produced by the submitted synthetic-data run, including EDA, correlations, feature importance, residuals, and prediction comparisons.
 
-## Limitations
-
-No real scraped dataset is included, and the local evidence does not support the report's claim that 500 IMDb pages were scraped. Synthetic construction directly relates the target to the generated IMDb rating, so the recorded metrics should not be generalized to real films.
-
 ## Authors
 
 - Adam El Akkaoui
@@ -45,4 +41,4 @@ No real scraped dataset is included, and the local evidence does not support the
 
 ## Testing and limitations
 
-All Python cells ran on Python 3.11 without invoking the commented scraper. The deterministic generator created 500 **synthetic** movies; the 100-row test subset gave RMSE `9.8132` and R² `0.6693` with Lasso. No real IMDb/Metacritic dataset was scraped or evaluated, so these values are not real-world performance.
+All Python cells ran on Python 3.11 without invoking the commented scraper. The deterministic generator created 500 **synthetic** movies; the 100-row test subset gave RMSE `9.8132` and R² `0.6693` with Lasso. No real IMDb/Metacritic dataset was scraped or evaluated, and local evidence does not support the report's claim that 500 IMDb pages were scraped. Because the synthetic target is directly related to generated IMDb ratings, these values are not real-world performance.
