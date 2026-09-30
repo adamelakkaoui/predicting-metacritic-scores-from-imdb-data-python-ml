@@ -38,3 +38,11 @@ No real scraped dataset is included, and the local evidence does not support the
 
 - Adam El Akkaoui
 - Mohammed Zaidouh
+
+## Academic artefacts
+
+- [French academic report (PDF)](docs/academic-report-fr.pdf). No presentation or video was found.
+
+## Testing and limitations
+
+All Python cells ran on Python 3.11 without invoking the commented scraper. The deterministic generator created 500 **synthetic** movies; the 100-row test subset gave RMSE `9.8132` and R² `0.6693` with Lasso. No real IMDb/Metacritic dataset was scraped or evaluated, so these values are not real-world performance.
