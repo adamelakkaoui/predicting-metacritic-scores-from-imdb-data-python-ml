@@ -16,17 +16,9 @@ The analysis also includes correlation study, feature importance, predictions ve
 
 Python, pandas, NumPy, scikit-learn, XGBoost, Beautiful Soup, Selenium, NLTK/TextBlob, Matplotlib, Seaborn, and Plotly.
 
-## Installation and use
+## Project notebook
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# Linux/macOS: source .venv/bin/activate
-python -m pip install -r requirements.txt
-jupyter lab metacritic_prediction.ipynb
-```
-
-The notebook contains the complete academic workflow from data preparation through model comparison and interpretation. Run it from the repository root after installing the dependencies.
+The complete project workflow is contained in `metacritic_prediction.ipynb`, from data preparation through model comparison and interpretation.
 
 ## Available examples
 
