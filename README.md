@@ -1,5 +1,8 @@
 # Predicting Metacritic Scores from IMDb Data – Python, ML
 
+![MACHINE LEARNING — Predicting Metacritic scores from IMDb data](assets/portfolio-banner.svg)
+
+
 Academic machine-learning project for predicting Metacritic scores from IMDb movie data, combining data collection, cleaning, exploratory analysis, feature engineering, regression models and model interpretation.
 
 ![Model comparison from the project notebook](images/final_report.png)
